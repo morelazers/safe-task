@@ -8,6 +8,8 @@ I did have to make some changes to the safe-contracts submodule to get the token
 
 In `/lib/safe-contracts/package.json`, change the version of `@openzeppelin-contracts` to `^4.0.0`.
 
+Then run `yarn` in `/lib/safe-contracts/`.
+
 Then in `lib/safe-contracts/contracts/test/ERC20Token.sol`, change the pragma solidity version to `^0.8.0`.
 
 I also had to change the import from `@openzeppelin/...` to `node_modules/@openzeppelin/...` for some reason...
